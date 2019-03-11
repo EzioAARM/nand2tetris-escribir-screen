@@ -203,6 +203,9 @@ public class FormPrincipal extends javax.swing.JFrame {
             if (fInicio >= alto || fInicio < 0) {
                 throw new Exception("La fila de inicio no puede ser mayor a " + alto);
             }
+            if (textoMostrar.getText().isEmpty()) {
+                throw new Exception("Tiene que ingresar texto");
+            }
             String cadena = textoMostrar.getText();
             int posInicial = 32;
             if (fInicio == 0 && cInicio == 0) {
