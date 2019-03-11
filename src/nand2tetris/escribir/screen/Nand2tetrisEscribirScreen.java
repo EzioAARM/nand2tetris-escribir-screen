@@ -15,7 +15,9 @@ public class Nand2tetrisEscribirScreen {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        FormPrincipal principal;
+        principal = new FormPrincipal();
+        principal.show(true);
     }
     
 }
