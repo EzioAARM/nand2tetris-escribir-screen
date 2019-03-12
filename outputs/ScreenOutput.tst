@@ -11,19 +11,7 @@ output,
 tock,
 output;
 
-set address %B0000000100010,
-tick,
-output,
-tock,
-output;
-
 set address %B0000001000000,
-tick,
-output,
-tock,
-output;
-
-set address %B0000001000010,
 tick,
 output,
 tock,
@@ -35,19 +23,7 @@ output,
 tock,
 output;
 
-set address %B0000001100010,
-tick,
-output,
-tock,
-output;
-
 set address %B0000010000000,
-tick,
-output,
-tock,
-output;
-
-set address %B0000010000010,
 tick,
 output,
 tock,
@@ -59,19 +35,7 @@ output,
 tock,
 output;
 
-set address %B0000010100010,
-tick,
-output,
-tock,
-output;
-
 set address %B0000011000000,
-tick,
-output,
-tock,
-output;
-
-set address %B0000011000010,
 tick,
 output,
 tock,
@@ -83,19 +47,7 @@ output,
 tock,
 output;
 
-set address %B0000011100010,
-tick,
-output,
-tock,
-output;
-
 set address %B0000100000000,
-tick,
-output,
-tock,
-output;
-
-set address %B0000100000010,
 tick,
 output,
 tock,
@@ -107,19 +59,7 @@ output,
 tock,
 output;
 
-set address %B0000100100010,
-tick,
-output,
-tock,
-output;
-
 set address %B0000101000000,
-tick,
-output,
-tock,
-output;
-
-set address %B0000101000010,
 tick,
 output,
 tock,
@@ -131,19 +71,7 @@ output,
 tock,
 output;
 
-set address %B0000101100010,
-tick,
-output,
-tock,
-output;
-
 set address %B0000110000000,
-tick,
-output,
-tock,
-output;
-
-set address %B0000110000010,
 tick,
 output,
 tock,
@@ -155,43 +83,13 @@ output,
 tock,
 output;
 
-set address %B0000110100010,
-tick,
-output,
-tock,
-output;
-
 set address %B0000111000000,
 tick,
 output,
 tock,
 output;
 
-set address %B0000111000001,
-tick,
-output,
-tock,
-output;
-
-set address %B0000111000010,
-tick,
-output,
-tock,
-output;
-
 set address %B0000111100000,
-tick,
-output,
-tock,
-output;
-
-set address %B0000111100001,
-tick,
-output,
-tock,
-output;
-
-set address %B0000111100010,
 tick,
 output,
 tock,
@@ -293,6 +191,12 @@ output,
 tock,
 output;
 
+set address %B0001010100001,
+tick,
+output,
+tock,
+output;
+
 set address %B0001010100010,
 tick,
 output,
@@ -300,6 +204,12 @@ tock,
 output;
 
 set address %B0001011000000,
+tick,
+output,
+tock,
+output;
+
+set address %B0001011000001,
 tick,
 output,
 tock,
@@ -443,7 +353,49 @@ output,
 tock,
 output;
 
+set address %B0010001000000,
+tick,
+output,
+tock,
+output;
+
+set address %B0010001000010,
+tick,
+output,
+tock,
+output;
+
+set address %B0010001100000,
+tick,
+output,
+tock,
+output;
+
+set address %B0010001100010,
+tick,
+output,
+tock,
+output;
+
+set address %B0000110000100,
+tick,
+output,
+tock,
+output;
+
 set address %B0000110000101,
+tick,
+output,
+tock,
+output;
+
+set address %B0000110000110,
+tick,
+output,
+tock,
+output;
+
+set address %B0000110100100,
 tick,
 output,
 tock,
@@ -455,7 +407,31 @@ output,
 tock,
 output;
 
+set address %B0000110100110,
+tick,
+output,
+tock,
+output;
+
+set address %B0000111000100,
+tick,
+output,
+tock,
+output;
+
 set address %B0000111000101,
+tick,
+output,
+tock,
+output;
+
+set address %B0000111000110,
+tick,
+output,
+tock,
+output;
+
+set address %B0000111100100,
 tick,
 output,
 tock,
@@ -467,19 +443,31 @@ output,
 tock,
 output;
 
+set address %B0000111100110,
+tick,
+output,
+tock,
+output;
+
+set address %B0001000000100,
+tick,
+output,
+tock,
+output;
+
 set address %B0001000000101,
 tick,
 output,
 tock,
 output;
 
-set address %B0001000100100,
+set address %B0001000000110,
 tick,
 output,
 tock,
 output;
 
-set address %B0001000100101,
+set address %B0001000100100,
 tick,
 output,
 tock,
@@ -497,12 +485,6 @@ output,
 tock,
 output;
 
-set address %B0001001000101,
-tick,
-output,
-tock,
-output;
-
 set address %B0001001000110,
 tick,
 output,
@@ -510,12 +492,6 @@ tock,
 output;
 
 set address %B0001001100100,
-tick,
-output,
-tock,
-output;
-
-set address %B0001001100101,
 tick,
 output,
 tock,
@@ -581,12 +557,6 @@ output,
 tock,
 output;
 
-set address %B0001100000101,
-tick,
-output,
-tock,
-output;
-
 set address %B0001100000110,
 tick,
 output,
@@ -594,12 +564,6 @@ tock,
 output;
 
 set address %B0001100100100,
-tick,
-output,
-tock,
-output;
-
-set address %B0001100100101,
 tick,
 output,
 tock,
@@ -617,12 +581,6 @@ output,
 tock,
 output;
 
-set address %B0001101000101,
-tick,
-output,
-tock,
-output;
-
 set address %B0001101000110,
 tick,
 output,
@@ -635,7 +593,19 @@ output,
 tock,
 output;
 
+set address %B0001101100110,
+tick,
+output,
+tock,
+output;
+
 set address %B0001110000100,
+tick,
+output,
+tock,
+output;
+
+set address %B0001110000110,
 tick,
 output,
 tock,
@@ -647,7 +617,19 @@ output,
 tock,
 output;
 
+set address %B0001110100110,
+tick,
+output,
+tock,
+output;
+
 set address %B0001111000100,
+tick,
+output,
+tock,
+output;
+
+set address %B0001111000110,
 tick,
 output,
 tock,
@@ -659,7 +641,31 @@ output,
 tock,
 output;
 
+set address %B0001111100110,
+tick,
+output,
+tock,
+output;
+
+set address %B0010000000100,
+tick,
+output,
+tock,
+output;
+
 set address %B0010000000101,
+tick,
+output,
+tock,
+output;
+
+set address %B0010000000110,
+tick,
+output,
+tock,
+output;
+
+set address %B0010000100100,
 tick,
 output,
 tock,
@@ -671,7 +677,31 @@ output,
 tock,
 output;
 
+set address %B0010000100110,
+tick,
+output,
+tock,
+output;
+
+set address %B0010001000100,
+tick,
+output,
+tock,
+output;
+
 set address %B0010001000101,
+tick,
+output,
+tock,
+output;
+
+set address %B0010001000110,
+tick,
+output,
+tock,
+output;
+
+set address %B0010001100100,
 tick,
 output,
 tock,
@@ -683,7 +713,25 @@ output,
 tock,
 output;
 
+set address %B0010001100110,
+tick,
+output,
+tock,
+output;
+
+set address %B0010010000100,
+tick,
+output,
+tock,
+output;
+
 set address %B0010010000101,
+tick,
+output,
+tock,
+output;
+
+set address %B0010010000110,
 tick,
 output,
 tock,
@@ -695,7 +743,19 @@ output,
 tock,
 output;
 
+set address %B0000000101001,
+tick,
+output,
+tock,
+output;
+
 set address %B0000001001000,
+tick,
+output,
+tock,
+output;
+
+set address %B0000001001001,
 tick,
 output,
 tock,
@@ -707,7 +767,19 @@ output,
 tock,
 output;
 
+set address %B0000001101001,
+tick,
+output,
+tock,
+output;
+
 set address %B0000010001000,
+tick,
+output,
+tock,
+output;
+
+set address %B0000010001001,
 tick,
 output,
 tock,
@@ -719,67 +791,67 @@ output,
 tock,
 output;
 
-set address %B0000011001000,
+set address %B0000010101001,
 tick,
 output,
 tock,
 output;
 
-set address %B0000011101000,
+set address %B0000011001001,
 tick,
 output,
 tock,
 output;
 
-set address %B0000100001000,
+set address %B0000011101001,
 tick,
 output,
 tock,
 output;
 
-set address %B0000100101000,
+set address %B0000100001001,
 tick,
 output,
 tock,
 output;
 
-set address %B0000101001000,
+set address %B0000100101001,
 tick,
 output,
 tock,
 output;
 
-set address %B0000101101000,
+set address %B0000101001001,
 tick,
 output,
 tock,
 output;
 
-set address %B0000110001000,
+set address %B0000101101001,
 tick,
 output,
 tock,
 output;
 
-set address %B0000110101000,
+set address %B0000110001001,
 tick,
 output,
 tock,
 output;
 
-set address %B0000111001000,
+set address %B0000110101001,
 tick,
 output,
 tock,
 output;
 
-set address %B0000111101000,
+set address %B0000111001001,
 tick,
 output,
 tock,
 output;
 
-set address %B0001000001000,
+set address %B0000111101001,
 tick,
 output,
 tock,
@@ -791,31 +863,7 @@ output,
 tock,
 output;
 
-set address %B0001000001010,
-tick,
-output,
-tock,
-output;
-
-set address %B0001000101000,
-tick,
-output,
-tock,
-output;
-
 set address %B0001000101001,
-tick,
-output,
-tock,
-output;
-
-set address %B0001000101010,
-tick,
-output,
-tock,
-output;
-
-set address %B0001001001000,
 tick,
 output,
 tock,
@@ -827,31 +875,7 @@ output,
 tock,
 output;
 
-set address %B0001001001010,
-tick,
-output,
-tock,
-output;
-
-set address %B0001001101000,
-tick,
-output,
-tock,
-output;
-
 set address %B0001001101001,
-tick,
-output,
-tock,
-output;
-
-set address %B0001001101010,
-tick,
-output,
-tock,
-output;
-
-set address %B0001010001000,
 tick,
 output,
 tock,
@@ -863,31 +887,7 @@ output,
 tock,
 output;
 
-set address %B0001010001010,
-tick,
-output,
-tock,
-output;
-
-set address %B0001010101000,
-tick,
-output,
-tock,
-output;
-
 set address %B0001010101001,
-tick,
-output,
-tock,
-output;
-
-set address %B0001010101010,
-tick,
-output,
-tock,
-output;
-
-set address %B0001011001000,
 tick,
 output,
 tock,
@@ -899,133 +899,67 @@ output,
 tock,
 output;
 
-set address %B0001011001010,
+set address %B0001011101001,
 tick,
 output,
 tock,
 output;
 
-set address %B0001011101000,
+set address %B0001100001001,
 tick,
 output,
 tock,
 output;
 
-set address %B0001011101010,
+set address %B0001100101001,
 tick,
 output,
 tock,
 output;
 
-set address %B0001100001000,
+set address %B0001101001001,
 tick,
 output,
 tock,
 output;
 
-set address %B0001100001010,
+set address %B0001101101001,
 tick,
 output,
 tock,
 output;
 
-set address %B0001100101000,
+set address %B0001110001001,
 tick,
 output,
 tock,
 output;
 
-set address %B0001100101010,
+set address %B0001110101001,
 tick,
 output,
 tock,
 output;
 
-set address %B0001101001000,
+set address %B0001111001001,
 tick,
 output,
 tock,
 output;
 
-set address %B0001101001010,
+set address %B0001111101001,
 tick,
 output,
 tock,
 output;
 
-set address %B0001101101000,
+set address %B0010000001001,
 tick,
 output,
 tock,
 output;
 
-set address %B0001101101010,
-tick,
-output,
-tock,
-output;
-
-set address %B0001110001000,
-tick,
-output,
-tock,
-output;
-
-set address %B0001110001010,
-tick,
-output,
-tock,
-output;
-
-set address %B0001110101000,
-tick,
-output,
-tock,
-output;
-
-set address %B0001110101010,
-tick,
-output,
-tock,
-output;
-
-set address %B0001111001000,
-tick,
-output,
-tock,
-output;
-
-set address %B0001111001010,
-tick,
-output,
-tock,
-output;
-
-set address %B0001111101000,
-tick,
-output,
-tock,
-output;
-
-set address %B0001111101010,
-tick,
-output,
-tock,
-output;
-
-set address %B0010000001000,
-tick,
-output,
-tock,
-output;
-
-set address %B0010000001010,
-tick,
-output,
-tock,
-output;
-
-set address %B0010000101000,
+set address %B0010000101001,
 tick,
 output,
 tock,
@@ -1037,7 +971,7 @@ output,
 tock,
 output;
 
-set address %B0010001001000,
+set address %B0010001001001,
 tick,
 output,
 tock,
@@ -1049,7 +983,7 @@ output,
 tock,
 output;
 
-set address %B0010001101000,
+set address %B0010001101001,
 tick,
 output,
 tock,
@@ -1061,139 +995,31 @@ output,
 tock,
 output;
 
-set address %B0000000101100,
+set address %B0010010001001,
 tick,
 output,
 tock,
 output;
 
-set address %B0000000101101,
+set address %B0010010001010,
 tick,
 output,
 tock,
 output;
 
-set address %B0000000101110,
+set address %B0010010101001,
 tick,
 output,
 tock,
 output;
 
-set address %B0000001001100,
+set address %B0010010101010,
 tick,
 output,
 tock,
 output;
 
-set address %B0000001001101,
-tick,
-output,
-tock,
-output;
-
-set address %B0000001001110,
-tick,
-output,
-tock,
-output;
-
-set address %B0000001101100,
-tick,
-output,
-tock,
-output;
-
-set address %B0000001101101,
-tick,
-output,
-tock,
-output;
-
-set address %B0000001101110,
-tick,
-output,
-tock,
-output;
-
-set address %B0000010001100,
-tick,
-output,
-tock,
-output;
-
-set address %B0000010001101,
-tick,
-output,
-tock,
-output;
-
-set address %B0000010001110,
-tick,
-output,
-tock,
-output;
-
-set address %B0000010101100,
-tick,
-output,
-tock,
-output;
-
-set address %B0000010101101,
-tick,
-output,
-tock,
-output;
-
-set address %B0000010101110,
-tick,
-output,
-tock,
-output;
-
-set address %B0000011001100,
-tick,
-output,
-tock,
-output;
-
-set address %B0000011101100,
-tick,
-output,
-tock,
-output;
-
-set address %B0000100001100,
-tick,
-output,
-tock,
-output;
-
-set address %B0000100101100,
-tick,
-output,
-tock,
-output;
-
-set address %B0000101001100,
-tick,
-output,
-tock,
-output;
-
-set address %B0000101101100,
-tick,
-output,
-tock,
-output;
-
-set address %B0000110001100,
-tick,
-output,
-tock,
-output;
-
-set address %B0000110101100,
+set address %B0000110001101,
 tick,
 output,
 tock,
@@ -1205,31 +1031,7 @@ output,
 tock,
 output;
 
-set address %B0000110101110,
-tick,
-output,
-tock,
-output;
-
-set address %B0000111001100,
-tick,
-output,
-tock,
-output;
-
 set address %B0000111001101,
-tick,
-output,
-tock,
-output;
-
-set address %B0000111001110,
-tick,
-output,
-tock,
-output;
-
-set address %B0000111101100,
 tick,
 output,
 tock,
@@ -1241,25 +1043,7 @@ output,
 tock,
 output;
 
-set address %B0000111101110,
-tick,
-output,
-tock,
-output;
-
-set address %B0001000001100,
-tick,
-output,
-tock,
-output;
-
 set address %B0001000001101,
-tick,
-output,
-tock,
-output;
-
-set address %B0001000001110,
 tick,
 output,
 tock,
@@ -1289,7 +1073,31 @@ output,
 tock,
 output;
 
+set address %B0001001001101,
+tick,
+output,
+tock,
+output;
+
+set address %B0001001001110,
+tick,
+output,
+tock,
+output;
+
 set address %B0001001101100,
+tick,
+output,
+tock,
+output;
+
+set address %B0001001101101,
+tick,
+output,
+tock,
+output;
+
+set address %B0001001101110,
 tick,
 output,
 tock,
@@ -1301,7 +1109,19 @@ output,
 tock,
 output;
 
+set address %B0001010001110,
+tick,
+output,
+tock,
+output;
+
 set address %B0001010101100,
+tick,
+output,
+tock,
+output;
+
+set address %B0001010101110,
 tick,
 output,
 tock,
@@ -1313,7 +1133,19 @@ output,
 tock,
 output;
 
+set address %B0001011001110,
+tick,
+output,
+tock,
+output;
+
 set address %B0001011101100,
+tick,
+output,
+tock,
+output;
+
+set address %B0001011101110,
 tick,
 output,
 tock,
@@ -1325,13 +1157,49 @@ output,
 tock,
 output;
 
+set address %B0001100001101,
+tick,
+output,
+tock,
+output;
+
+set address %B0001100001110,
+tick,
+output,
+tock,
+output;
+
 set address %B0001100101100,
 tick,
 output,
 tock,
 output;
 
+set address %B0001100101101,
+tick,
+output,
+tock,
+output;
+
+set address %B0001100101110,
+tick,
+output,
+tock,
+output;
+
 set address %B0001101001100,
+tick,
+output,
+tock,
+output;
+
+set address %B0001101001101,
+tick,
+output,
+tock,
+output;
+
+set address %B0001101001110,
 tick,
 output,
 tock,
@@ -1349,31 +1217,7 @@ output,
 tock,
 output;
 
-set address %B0001110001101,
-tick,
-output,
-tock,
-output;
-
-set address %B0001110001110,
-tick,
-output,
-tock,
-output;
-
 set address %B0001110101100,
-tick,
-output,
-tock,
-output;
-
-set address %B0001110101101,
-tick,
-output,
-tock,
-output;
-
-set address %B0001110101110,
 tick,
 output,
 tock,
@@ -1385,37 +1229,7 @@ output,
 tock,
 output;
 
-set address %B0001111001101,
-tick,
-output,
-tock,
-output;
-
-set address %B0001111001110,
-tick,
-output,
-tock,
-output;
-
 set address %B0001111101100,
-tick,
-output,
-tock,
-output;
-
-set address %B0001111101101,
-tick,
-output,
-tock,
-output;
-
-set address %B0001111101110,
-tick,
-output,
-tock,
-output;
-
-set address %B0010000001100,
 tick,
 output,
 tock,
@@ -1427,7 +1241,25 @@ output,
 tock,
 output;
 
-set address %B0010000001110,
+set address %B0010000101101,
+tick,
+output,
+tock,
+output;
+
+set address %B0010001001101,
+tick,
+output,
+tock,
+output;
+
+set address %B0010001101101,
+tick,
+output,
+tock,
+output;
+
+set address %B0010010001101,
 tick,
 output,
 tock,
