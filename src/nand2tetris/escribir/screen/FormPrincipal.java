@@ -29,11 +29,13 @@ public class FormPrincipal extends javax.swing.JFrame {
      */
     public FormPrincipal() {
         initComponents();
-        header = "load Screen.hdl,\n"
+        /*header = "load Screen.hdl,\n"
                 + "output-file Screen.out,\n"
                 + "output-list out%B1.16.1;\n\n"
                 + "set in %B0111111111111111,\n"
-                + "set load 1;\n\n";
+                + "set load 1;\n\n";*/
+        header = "@32767\n"
+                + "D=A\n";
     }
     
     private String aBinario(int numero) {
@@ -65,11 +67,13 @@ public class FormPrincipal extends javax.swing.JFrame {
             for (int i = 0; i < linea.length(); i++) {
                 caracter = String.valueOf(linea.charAt(i));
                 if (!caracter.equals(" ")) {
-                    header += "set address %B" + aBinario(posActual) + ",\n"
+                    /*header += "set address %B" + aBinario(posActual) + ",\n"
                             + "tick,\n"
                             + "output,\n"
                             + "tock,\n"
-                            + "output;\n\n";
+                            + "output;\n\n";*/
+                    header += "@" + posActual + "\n"
+                            + "M=D\n";
                 }
                 posActual++;
             }
@@ -207,9 +211,9 @@ public class FormPrincipal extends javax.swing.JFrame {
                 throw new Exception("Tiene que ingresar texto");
             }
             String cadena = textoMostrar.getText();
-            int posInicial = 32;
+            int posInicial = 16384;
             if (fInicio == 0 && cInicio == 0) {
-                posInicial = 32;
+                posInicial = 16384;
             } else {
                 for (int i = 0; i < cInicio; i++) {
                     posInicial += 1;
@@ -231,13 +235,13 @@ public class FormPrincipal extends javax.swing.JFrame {
             if (!directorioSalida.isDirectory()) {
                 directorioSalida.mkdirs();
             }
-            String ubicacion = _objArchivo.getAbsolutePath() + "\\outputs\\ScreenOutput.tst";
+            String ubicacion = _objArchivo.getAbsolutePath() + "\\outputs\\ScreenOutput.asm";
             File archivoSalida = new File(ubicacion);
             BufferedWriter escritor;
             if (archivoSalida.exists()) {
                 int i = 1;
                 while (archivoSalida.exists()) {
-                    ubicacion = _objArchivo.getAbsolutePath() + "\\outputs\\ScreenOutput (" + i + ").tst";
+                    ubicacion = _objArchivo.getAbsolutePath() + "\\outputs\\ScreenOutput (" + i + ").asm";
                     archivoSalida = new File(ubicacion);
                     i++;
                 }
